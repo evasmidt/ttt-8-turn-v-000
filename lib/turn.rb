@@ -22,6 +22,17 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
+#13 passes and 3 fails
+#def turn(board)
+#  puts "Please enter 1-9:"
+  #input = gets.strip
+  #index = input_to_index(input)
+  #valid_move?(board, index)
+   #this part fails
+      # puts "Please enter 1-9:"
+  # display_board(board)
+#end
+
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
