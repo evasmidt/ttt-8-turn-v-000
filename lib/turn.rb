@@ -41,7 +41,7 @@ def turn(board)
 
 
   valid_move?(board, index) == false
-  until valid_move?(board, index) < 9 && => 0
+  until input >= 0 && input <= 9
     puts "Invalid. Please enter 1-9:"
     valid_move?(board, index) += 1
   end
