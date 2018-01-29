@@ -40,8 +40,8 @@ def turn(board)
 
   valid_move?(board, index)
   until valid_move?(board, index)
-    puts "Invalid. Please enter 1-9:"
-    
+    #puts "Invalid. Please enter 1-9:"
+    turn(board)
   end
 
     #true
