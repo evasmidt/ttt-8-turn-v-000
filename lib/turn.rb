@@ -28,7 +28,7 @@ def turn(board)
   index = input_to_index(input)
   valid_move?(board, index) == false
   #valid_move? == false
-    puts "Please enter 1-9"
+    puts "Please enter 1-9:"
   #input_to_index
   #between?(0,8)
 end
