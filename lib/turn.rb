@@ -30,6 +30,7 @@ def turn(board)
     true
   #valid_move?(board, index) == false
     puts "Please enter 1-9:"
+  else display_board
   #input_to_index
   #between?(0,8)
 end
