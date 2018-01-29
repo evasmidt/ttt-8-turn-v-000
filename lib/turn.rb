@@ -37,10 +37,19 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
+
+  counter = 0
+  until counter == 20
+    puts "The current number is less than 20."
+    counter += 1
+  end
+
   valid_move?(board, index)
-   #if valid_move?(board, index)
-  ##   false
-       puts "Please enter 1-9:"
+  until valid_move?(board, index) == true
+    puts "Invalid. Please enter 1-9:"
+    valid_move?(board, index) += 1
+  end
+
     #true
   #valid_move?(board, index) == false
     #puts "Please enter 1-9:"
