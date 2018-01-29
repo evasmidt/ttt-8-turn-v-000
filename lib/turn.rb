@@ -36,7 +36,7 @@ def turn(board)
   #between?(0,8)
 end
 end
-
+end
 
 #if index.between?(1,9)
   #   if !position_taken?(board, index)
