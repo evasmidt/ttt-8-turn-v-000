@@ -38,11 +38,7 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
 
-  counter = 0
-  until counter == 20
-    puts "The current number is less than 20."
-    counter += 1
-  end
+  
 
   valid_move?(board, index)
   until valid_move?(board, index) == true
